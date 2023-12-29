@@ -1,0 +1,100 @@
+body{
+
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+canvas{
+    margin-top: 100px;
+
+}
+
+
+
+#login_page{
+
+    border  : 1px solid #000;
+    width : 200px;
+    height : 200px;
+    margin-top: 150px;
+    align-items: top;
+    justify-content: left;
+    margin-bottom: 447px;
+    display: none;
+
+
+}
+
+#logintitle{
+    text-align: center;
+    border-bottom: 1px solid #000;
+    font-family: ''Georgia, 'Times New Roman', Times, serif;
+}
+
+#idinput{
+    width : 190px;
+    
+}
+
+#pwinput{
+    width : 190px;
+}
+#inputs{
+    border-bottom: 1px solid #000;
+
+    
+
+}
+
+#buttons{
+    border-bottom: 1px solid #000;
+    height : 50px;
+}
+
+#signupbutton{
+    width : 97px;
+    height: 50px;
+    justify-content: center;
+}
+#loginbutton{
+    width  : 97px;
+    height : 50px;
+    justify-content: center;
+}
+
+#key_01{
+
+    width : 97px;
+
+    font-size : 20px
+
+}
+#key_02{
+
+    width : 97px;
+
+    font-size : 20px
+
+}
+#key_03{
+
+    width : 97px;
+
+    font-size : 20px
+
+}
+#key_04{
+
+    width : 97px;
+
+    font-size : 20px;
+
+}
+
+
+#keychange{
+
+    text-align: center;
+}

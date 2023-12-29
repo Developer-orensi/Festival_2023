@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리듬게임 v 2.11</title>
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+<body>
+
+    
+    
+
+    <canvas id="playground" width="400px" height="600px"></canvas>
+
+    <div id="login_page">
+
+        <div id="logintitle">
+            로그인/회원가입 하기
+        </div>
+
+        <div id="inputs">
+            <input type="text" id="idinput" placeholder="아이디(닉네임) 입력">
+
+            <input type="password" id="pwinput" placeholder="비밀번호 입력">
+
+
+        </div>
+
+        <div id="buttons">
+            <button id="loginbutton">로그인</button>
+            <button id="signupbutton">회원가입</button>
+
+
+        </div>
+
+
+        <div class="key_setting">
+
+            <span id="keychange">키 바꾸기</span><br>
+
+       
+
+            <button id="key_01">E</button>
+
+            <button id="key_02">F</button>
+
+            <button id='key_03'>J</button>
+
+            <button id="key_04">O</button>
+
+
+
+        </div>
+        
+
+    </div>
+
+
+
+    <audio id="song_01" src="songs/plum01.mp3"></audio>
+    <audio id="song_04" src="songs/Plum_R.mp3"></audio>
+    <audio id="song_05" src="songs/Linearity - Hgcat.mp3"></audio>
+    <audio id="song_06" src="songs/Camellia - first town of this journey ( dafikun & ddolbok remix ).mp3"></audio>
+    <audio id="song_02" src='songs/NewJeans.mp3'></audio>
+    <audio id="song_03" src="songs/LS.mp3"></audio>
+    <audio id='song_07' src="songs/Timeline.mp3"></audio>
+    <audio id="song_08" src="songs/Raninbowchaser.mp3"></audio>
+    <audio id="song_09" src="songs/Santa.mp3"></audio>
+    <audio id="song_10" src="songs/Selfmade_disaster.mp3"></audio>
+
+
+
+
+    <!-- 히든 곡 -->
+    <audio id="hidden_01" src="songs/plum-finding.mp3"></audio>
+
+    <audio id="sound_click" src="audios/click.wav"></audio>
+    <audio id="sound_offest" src="audios/offset.wav"></audio>
+
+    <script type='module' src="https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js"></script>
+    <script type='module' src="https://www.gstatic.com/firebasejs/10.5.2/firebase-auth.js"></script>
+    <script type='module' src="https://www.gstatic.com/firebasejs/10.5.2/firebase-firestore.js"></script>
+
+    
+    <script type="module" src="script.js"></script>
+
+    <script  src="db.js" type="module"></script>
+
+   
+
+</body>
+</html>
